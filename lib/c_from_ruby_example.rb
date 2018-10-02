@@ -1,3 +1,4 @@
+require "extension"
 require "c_from_ruby_example/version"
 
 module CFromRubyExample
