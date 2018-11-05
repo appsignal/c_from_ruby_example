@@ -4,7 +4,7 @@ require "c_from_ruby_example/version"
 module CFromRubyExample
   class Helpers
     def self.string(value)
-      "String: '#{value}'"
+      "String from Ruby: '#{value}'"
     end
 
     def self.number(value)
