@@ -3,7 +3,7 @@
 
 char* string_from_library(char* value) {
   char* out = (char*)malloc(256 * sizeof(char));
-  sprintf(out, "String: '%s'", value);
+  sprintf(out, "String from C: '%s'", value);
   return out;
 }
 
