@@ -2,7 +2,7 @@ require "test_helper"
 
 class CFromRubyExampleTest < Minitest::Test
   def test_string
-    assert_equal CFromRubyExample::Helpers.string("a string"), "String: 'a string'"
+    assert_equal CFromRubyExample::Helpers.string("a string"), "String from Ruby: 'a string'"
   end
 
   def test_number
@@ -14,7 +14,7 @@ class CFromRubyExampleTest < Minitest::Test
   end
 
   def test_string_native
-    assert_equal CFromRubyExample::NativeHelpers.string("a string"), "String: 'a string'"
+    assert_equal CFromRubyExample::NativeHelpers.string("a string"), "String from C: 'a string'"
   end
 
   def test_number_native
